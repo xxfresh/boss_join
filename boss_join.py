@@ -33,9 +33,9 @@ def save_config():
 # --- Bot Credentials ---
 api_id = 25480339
 api_hash = "2dad95892b2ae39b059c53a7796b687f"
-bot_token = "7687213948:AAGF3X6-qxtU3PqMxrjHZwLiucOdhZiM_a0"
+bot_token = "7534286046:AAFkzbzlYLHC7J-sL6Z7PoqvM-wNc4vLFCk"
 
-app = Client("multi_channel_bot.py", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
+app = Client("boss_join.py", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 def is_admin(user_id):
     return user_id in config["admins"]

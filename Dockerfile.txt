@@ -22,4 +22,4 @@ RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Run the bot
-CMD ["python3", "multi_channel_bot.py"]
+CMD ["python3", "boss_join.py"]
